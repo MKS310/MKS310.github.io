@@ -21,7 +21,7 @@ Archived in the archives of Python.org is the [original exchange](https://mail.p
 
 ###The Zen of Python (originally, "The Python Way), PEP 20
 
-` 
+
 1. Beautiful is better than ugly.
 2. Explicit is better than implicit.
 3. Simple is better than complex.
@@ -40,7 +40,7 @@ Archived in the archives of Python.org is the [original exchange](https://mail.p
 16. Although never is often better than *right* now.
 17. If the implementation is hard to explain, it's a bad idea.
 18. If the implementation is easy to explain, it may be a good idea.
-19. Namespaces are one honking great idea -- let's do more of those!`
+19. Namespaces are one honking great idea -- let's do more of those!
 
 ##Again, What is Pythonic Error Catching?
 
@@ -93,9 +93,9 @@ def main():
         except Exception:
             print("No valid integer! Please try again....")
 main()       
-```
+``
 
->`    Enter an integer:6
+    Enter an integer:6
     720
     Enter an integer:5
     120
@@ -105,4 +105,4 @@ main()
     1
     Enter an integer:er
     No valid integer! Please try again....
-`
+
